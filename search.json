@@ -7,6 +7,13 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "index.html#chapters",
+    "href": "index.html#chapters",
+    "title": "Test Website",
+    "section": "Chapters",
+    "text": "Chapters\n\n\n\nChapters\nChapter 1\nURLs | =======+ Chapter 1\n\n\n\n\n\n\nChapter 2\nChapter 2"
+  },
+  {
     "objectID": "chapters/chapter1/online_chapter1.html",
     "href": "chapters/chapter1/online_chapter1.html",
     "title": "Chapter 1: What is Orleans",
@@ -18,13 +25,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\n\n\n\n\n\n\nNote\n\n\n\nNote this website is for testing GitHub Pages action auto deploy GitHub Pages with Quarto.\nDo not believe anything you read here."
   },
   {
     "objectID": "chapters/chapter2/online_chapter2.html",
     "href": "chapters/chapter2/online_chapter2.html",
     "title": "Chapter 2: What is Actor Model?",
     "section": "",
-    "text": "What is Actor Model?\nActor model is a mathematical model of concurrent computation. It treats “actors” as the universal primitives of concurrent computation. In response to a message that it receives, an actor can: make local decisions, create more actors, send more messages, and determine how to respond to the next message received."
+    "text": "Actor model is a mathematical model of concurrent computation. It treats “actors” as the universal primitives of concurrent computation. In response to a message that it receives, an actor can: make local decisions, create more actors, send more messages, and determine how to respond to the next message received."
   }
 ]
