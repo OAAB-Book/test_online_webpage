@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -189,7 +192,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Orleans is a virtual actor framework. It is a framework for building distributed, high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns. It was created by Microsoft Research and designed for use in the cloud.</p>
 <section id="the-calling-flow-chart" class="level2">
 <h2 class="anchored" data-anchor-id="the-calling-flow-chart">The calling flow-chart</h2>
-<pre class="mermaid"><code>flowchart TB
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TB
     client -.- tcpip01("TCP/IP")
     tcpip01 -.-&gt; server
     server -.- tcpip02("TCP/IP")
@@ -209,7 +216,12 @@ ul.task-list li input[type="checkbox"] {
         ihello_proxy == "3. call\n SayHello()" ==&gt;silo
         helloworld_grain == "5. return\nSayHello()\nresult" ==&gt;ihello_proxy --&gt; rpc_result(["#quot;Hello World!#quot;"])
         connected_client -----&gt;|"call\nClose()"| disconnected_client["Orleans Client\n(disconnected)"] --&gt;|"call Dispose()"|dispoed[Disposed client]
-    end</code></pre>
+    end
+</pre>
+</div>
+</div>
+</div>
+</div>
 
 
 </section>
