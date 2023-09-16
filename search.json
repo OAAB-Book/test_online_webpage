@@ -39,6 +39,34 @@
     "href": "chapters/chapter2/online_chapter2.html",
     "title": "Chapter 2: What is Actor Model?",
     "section": "",
-    "text": "Actor model is a mathematical model of concurrent computation. It treats “actors” as the universal primitives of concurrent computation. In response to a message that it receives, an actor can: make local decisions, create more actors, send more messages, and determine how to respond to the next message received."
+    "text": "Note\n\n\n\nNote this website is for testing GitHub Pages action auto deploy GitHub Pages with Quarto.\nDo not believe anything you read here."
+  },
+  {
+    "objectID": "chapters/chapter2/online_chapter2.html#actors",
+    "href": "chapters/chapter2/online_chapter2.html#actors",
+    "title": "Chapter 2: What is Actor Model?",
+    "section": "Actors",
+    "text": "Actors"
+  },
+  {
+    "objectID": "chapters/chapter2/online_chapter2.html#messages",
+    "href": "chapters/chapter2/online_chapter2.html#messages",
+    "title": "Chapter 2: What is Actor Model?",
+    "section": "Messages",
+    "text": "Messages"
+  },
+  {
+    "objectID": "chapters/chapter2/online_chapter2.html#mailbox",
+    "href": "chapters/chapter2/online_chapter2.html#mailbox",
+    "title": "Chapter 2: What is Actor Model?",
+    "section": "Mailbox",
+    "text": "Mailbox"
+  },
+  {
+    "objectID": "chapters/chapter2/online_chapter2.html#address",
+    "href": "chapters/chapter2/online_chapter2.html#address",
+    "title": "Chapter 2: What is Actor Model?",
+    "section": "Address",
+    "text": "Address"
   }
 ]
